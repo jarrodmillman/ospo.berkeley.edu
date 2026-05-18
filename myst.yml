@@ -22,5 +22,6 @@ site:
     logo: static/images/dancing-logo-berkeley.svg
     logo_text: "Berkeley OSPO"
     style: assets/css/site.css
+    hide_myst_branding: true
   parts:
     footer: footer.md
