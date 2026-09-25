@@ -10,8 +10,9 @@ html:
 
 serve: ## Serve site, typically on http://localhost:1313
 serve:
-	python -m http.server --directory _build/html 1313
+	myst start --port 1313
 
 clean: ## Remove built files
 clean:
-	rm -rf public
+	myst clean --all
+
