@@ -6,7 +6,7 @@ help:
 
 html: ## Build site in `./_build`
 html:
-	jupyter-book build .
+	myst build --html
 
 serve: ## Serve site, typically on http://localhost:1313
 serve:
